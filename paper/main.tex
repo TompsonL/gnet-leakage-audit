@@ -33,8 +33,8 @@ segmentation: a background image, often produced by a background-subtraction
 (BGS) algorithm such as SuBSENSE, is fed to a convolutional network together with
 the current frame, and is often trained with the same BGS masks as pseudo-labels.
 Its provenance---past frames, BGS-guided, or future-frame oracle---is rarely
-reported, making numbers incomparable. This paper is an empirical audit, not a
-new method. We formalize three leakage channels (background-input leakage,
+reported, making numbers incomparable. This paper contributes an empirical audit and protocol, not a new
+architecture. We formalize three leakage channels (background-input leakage,
 pseudo-label self-distillation, and future-frame oracle), define
 causal/leaky/oracle provenance levels, and introduce leakage-gap and oracle-gap
 metrics. Holding weights fixed and switching only the background source for a
