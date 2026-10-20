@@ -1,0 +1,15 @@
+# Environment (verified): python 3.11.7, CUDA build 13.0, NVIDIA L20
+torch==2.13.0
+torchvision==0.28.0
+opencv-python==5.0.0
+numpy==1.26.4
+pandas==2.1.4
+pycocotools
+Pillow==12.3.0
+scipy==1.17.1
+scikit-learn==1.9.1
+thop==0.1.1        # FLOPs/MACs in bench.py
+pyarrow            # read *.parquet (Cityscapes backgrounds)
+tensorboardX       # optional (BSUV-Net training code)
+yacs               # optional (BSUV-Net inference configs)
+pytest>=7.0     # unit tests in tests/

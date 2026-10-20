@@ -1,0 +1,11 @@
+video,F1,PWC,Precision,Recall
+PTZ/continuousPan,0.0035,76.6001,0.0017,0.9875
+PTZ/intermittentPan,0.0260,88.0347,0.0132,0.9836
+PTZ/twoPositionPTZCam,1.0000,79.2893,0.0000,0.0000
+PTZ/zoomInZoomOut,0.0072,77.7777,0.0036,0.9988
+
+category,F1,PWC
+PTZ,0.2592,80.4254
+
+AVG_video,0.2592,80.4254
+AVG_category,0.2592,80.4254

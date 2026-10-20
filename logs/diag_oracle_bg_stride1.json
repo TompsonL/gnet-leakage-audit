@@ -1,0 +1,572 @@
+[
+  {
+    "src": "oracle",
+    "tau": 2,
+    "avg_video": 0.09602648624856165,
+    "avg_category": 0.0927032301815069,
+    "per_cat": {
+      "PTZ": 0.019322552390146446,
+      "badWeather": 0.07158411800097088,
+      "baseline": 0.11432615012487073,
+      "cameraJitter": 0.10117848117274673,
+      "dynamicBackground": 0.03048942147975651,
+      "intermittentObjectMotion": 0.17655387957180543,
+      "lowFramerate": 0.07208243750551883,
+      "nightVideos": 0.047430487135904864,
+      "shadow": 0.1284320521634966,
+      "thermal": 0.24464996248553642,
+      "turbulence": 0.013685989965822657
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 5,
+    "avg_video": 0.1639392104115492,
+    "avg_category": 0.15911805721091157,
+    "per_cat": {
+      "PTZ": 0.02061512747768382,
+      "badWeather": 0.17892707451594803,
+      "baseline": 0.25562530329559285,
+      "cameraJitter": 0.1412666762928208,
+      "dynamicBackground": 0.04198197266144322,
+      "intermittentObjectMotion": 0.30406606822238924,
+      "lowFramerate": 0.1036111974035915,
+      "nightVideos": 0.07505678136171398,
+      "shadow": 0.2351882558488285,
+      "thermal": 0.37499747834324815,
+      "turbulence": 0.01896269389676741
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 8,
+    "avg_video": 0.2284197074746194,
+    "avg_category": 0.22483420488409836,
+    "per_cat": {
+      "PTZ": 0.02252135644829578,
+      "badWeather": 0.3172317085596361,
+      "baseline": 0.4245853830115796,
+      "cameraJitter": 0.18383662850698335,
+      "dynamicBackground": 0.05414104938420856,
+      "intermittentObjectMotion": 0.37622586776791095,
+      "lowFramerate": 0.1569130188532331,
+      "nightVideos": 0.11737839007248925,
+      "shadow": 0.32514893234134834,
+      "thermal": 0.46775100212258797,
+      "turbulence": 0.02744291665680883
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 10,
+    "avg_video": 0.2672838097266252,
+    "avg_category": 0.26488900437608115,
+    "per_cat": {
+      "PTZ": 0.023968223236200188,
+      "badWeather": 0.39751247911842535,
+      "baseline": 0.522246874571043,
+      "cameraJitter": 0.21286669436739658,
+      "dynamicBackground": 0.06280517694189831,
+      "intermittentObjectMotion": 0.4028534026514949,
+      "lowFramerate": 0.20044531932740872,
+      "nightVideos": 0.1495692111047484,
+      "shadow": 0.37463781545461333,
+      "thermal": 0.5311945106580593,
+      "turbulence": 0.03567934070560412
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 15,
+    "avg_video": 0.3501537720921316,
+    "avg_category": 0.35127946396300885,
+    "per_cat": {
+      "PTZ": 0.02764843571078645,
+      "badWeather": 0.577513731619532,
+      "baseline": 0.7024267341664326,
+      "cameraJitter": 0.2806895332527237,
+      "dynamicBackground": 0.0871865306230807,
+      "intermittentObjectMotion": 0.43745489378569763,
+      "lowFramerate": 0.330605900882013,
+      "nightVideos": 0.23325224459584273,
+      "shadow": 0.4694394615427286,
+      "thermal": 0.647187245415886,
+      "turbulence": 0.0706693919983745
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 20,
+    "avg_video": 0.4023607735656996,
+    "avg_category": 0.40555904726338743,
+    "per_cat": {
+      "PTZ": 0.03114405328618609,
+      "badWeather": 0.6768855716525441,
+      "baseline": 0.7770465848181811,
+      "cameraJitter": 0.3353257058794762,
+      "dynamicBackground": 0.1166784089526286,
+      "intermittentObjectMotion": 0.4441629111727054,
+      "lowFramerate": 0.437456328647424,
+      "nightVideos": 0.3003484254253529,
+      "shadow": 0.5393620658046657,
+      "thermal": 0.6794192966823269,
+      "turbulence": 0.12332016757577037
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 25,
+    "avg_video": 0.4301640103431556,
+    "avg_category": 0.4338059215981387,
+    "per_cat": {
+      "PTZ": 0.034263186439431735,
+      "badWeather": 0.7100370283995994,
+      "baseline": 0.8019847692127173,
+      "cameraJitter": 0.3800773661327438,
+      "dynamicBackground": 0.15207829455039681,
+      "intermittentObjectMotion": 0.4447994155420579,
+      "lowFramerate": 0.47720350500206443,
+      "nightVideos": 0.3354461240771896,
+      "shadow": 0.5910337113023177,
+      "thermal": 0.6645169069252221,
+      "turbulence": 0.18042482999578419
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 30,
+    "avg_video": 0.4455442267557872,
+    "avg_category": 0.4490417544661787,
+    "per_cat": {
+      "PTZ": 0.037111414918473196,
+      "badWeather": 0.7110091396113122,
+      "baseline": 0.8063653312905572,
+      "cameraJitter": 0.41483095567660333,
+      "dynamicBackground": 0.19296437667658187,
+      "intermittentObjectMotion": 0.43985149608028734,
+      "lowFramerate": 0.4815786875460706,
+      "nightVideos": 0.3510338284059933,
+      "shadow": 0.6246349195717119,
+      "thermal": 0.6390375800757052,
+      "turbulence": 0.2410415692746698
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 40,
+    "avg_video": 0.45740147965642397,
+    "avg_category": 0.460595383429035,
+    "per_cat": {
+      "PTZ": 0.04265387875640979,
+      "badWeather": 0.6602394629372725,
+      "baseline": 0.7886759013324076,
+      "cameraJitter": 0.4612525831299398,
+      "dynamicBackground": 0.2843393238923116,
+      "intermittentObjectMotion": 0.40722991504275385,
+      "lowFramerate": 0.4581687392298273,
+      "nightVideos": 0.352367000928169,
+      "shadow": 0.6556930607253479,
+      "thermal": 0.5768229497357682,
+      "turbulence": 0.37910640200917733
+    }
+  },
+  {
+    "src": "oracle",
+    "tau": 50,
+    "avg_video": 0.45625516250076065,
+    "avg_category": 0.4589489493709545,
+    "per_cat": {
+      "PTZ": 0.04790309559960332,
+      "badWeather": 0.5819234390416179,
+      "baseline": 0.7588995799430918,
+      "cameraJitter": 0.48862516667220934,
+      "dynamicBackground": 0.3716915208997353,
+      "intermittentObjectMotion": 0.36529103942015456,
+      "lowFramerate": 0.42288991185349045,
+      "nightVideos": 0.3398456933302958,
+      "shadow": 0.6661354575070925,
+      "thermal": 0.5018424179037619,
+      "turbulence": 0.5033911209094467
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 2,
+    "avg_video": 0.10675340409962605,
+    "avg_category": 0.10318880486514943,
+    "per_cat": {
+      "PTZ": 0.026055667867312757,
+      "badWeather": 0.08997328395070155,
+      "baseline": 0.12470637525662195,
+      "cameraJitter": 0.09882868391659808,
+      "dynamicBackground": 0.03518040502150977,
+      "intermittentObjectMotion": 0.18390488140469718,
+      "lowFramerate": 0.07380086872772655,
+      "nightVideos": 0.054701551124516745,
+      "shadow": 0.1382071725472872,
+      "thermal": 0.29363498301758345,
+      "turbulence": 0.01608298068208864
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 5,
+    "avg_video": 0.18149301919427796,
+    "avg_category": 0.17698965466456212,
+    "per_cat": {
+      "PTZ": 0.04637220964838891,
+      "badWeather": 0.22760151346146043,
+      "baseline": 0.2583386904188985,
+      "cameraJitter": 0.1313922724420979,
+      "dynamicBackground": 0.049048010668745985,
+      "intermittentObjectMotion": 0.28064760084472656,
+      "lowFramerate": 0.11767798380513597,
+      "nightVideos": 0.0985527443762944,
+      "shadow": 0.2654410273801429,
+      "thermal": 0.4442064455161767,
+      "turbulence": 0.027607702748115272
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 8,
+    "avg_video": 0.23658472886940754,
+    "avg_category": 0.23315766842219424,
+    "per_cat": {
+      "PTZ": 0.07444621182867002,
+      "badWeather": 0.35775129851085424,
+      "baseline": 0.36401053203597444,
+      "cameraJitter": 0.16379484953383489,
+      "dynamicBackground": 0.06285876517345464,
+      "intermittentObjectMotion": 0.3289504850866846,
+      "lowFramerate": 0.18871912154045326,
+      "nightVideos": 0.15220559472045203,
+      "shadow": 0.36480266680474993,
+      "thermal": 0.46241819593137024,
+      "turbulence": 0.044776631477638155
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 10,
+    "avg_video": 0.26753625012401605,
+    "avg_category": 0.265255581386431,
+    "per_cat": {
+      "PTZ": 0.0955234916298714,
+      "badWeather": 0.4372163863007539,
+      "baseline": 0.40789152401951984,
+      "cameraJitter": 0.1847023456661389,
+      "dynamicBackground": 0.07264286385368433,
+      "intermittentObjectMotion": 0.34905538830283867,
+      "lowFramerate": 0.24569502863168108,
+      "nightVideos": 0.1867899529228828,
+      "shadow": 0.41099386017665,
+      "thermal": 0.4692115450577761,
+      "turbulence": 0.058089008688944496
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 15,
+    "avg_video": 0.3224365149246758,
+    "avg_category": 0.3230191178884246,
+    "per_cat": {
+      "PTZ": 0.1474859283205561,
+      "badWeather": 0.5550823348562014,
+      "baseline": 0.4753458324532199,
+      "cameraJitter": 0.23386354034308415,
+      "dynamicBackground": 0.10053169976729188,
+      "intermittentObjectMotion": 0.36950656676966265,
+      "lowFramerate": 0.3797711315126079,
+      "nightVideos": 0.2580354457653856,
+      "shadow": 0.48260112603944155,
+      "thermal": 0.4549444272335775,
+      "turbulence": 0.09604226371164203
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 20,
+    "avg_video": 0.3532931394306538,
+    "avg_category": 0.3557458997637691,
+    "per_cat": {
+      "PTZ": 0.18879010910623398,
+      "badWeather": 0.5756267898549148,
+      "baseline": 0.5186290343273228,
+      "cameraJitter": 0.2790205766457483,
+      "dynamicBackground": 0.13423842297846864,
+      "intermittentObjectMotion": 0.3653385887143117,
+      "lowFramerate": 0.46011562569126413,
+      "nightVideos": 0.3051609513778231,
+      "shadow": 0.520429072925639,
+      "thermal": 0.4213827282263306,
+      "turbulence": 0.14447299755340237
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 25,
+    "avg_video": 0.37107633787675653,
+    "avg_category": 0.3746931678969622,
+    "per_cat": {
+      "PTZ": 0.2160152179319001,
+      "badWeather": 0.5552016778724153,
+      "baseline": 0.5500509171313492,
+      "cameraJitter": 0.31966778746445085,
+      "dynamicBackground": 0.1731073012069059,
+      "intermittentObjectMotion": 0.35065257845826875,
+      "lowFramerate": 0.48989157579833476,
+      "nightVideos": 0.33268390034343803,
+      "shadow": 0.5420019288556441,
+      "thermal": 0.3836551022732403,
+      "turbulence": 0.208696859530638
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 30,
+    "avg_video": 0.381405504460496,
+    "avg_category": 0.385962154592372,
+    "per_cat": {
+      "PTZ": 0.2321690112717069,
+      "badWeather": 0.5197867647016059,
+      "baseline": 0.5717250184158574,
+      "cameraJitter": 0.3537168998094552,
+      "dynamicBackground": 0.21381536401424253,
+      "intermittentObjectMotion": 0.3307297089130483,
+      "lowFramerate": 0.49174717950623215,
+      "nightVideos": 0.34637865215421687,
+      "shadow": 0.5528301277664541,
+      "thermal": 0.3446492286459973,
+      "turbulence": 0.28803574531727577
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 40,
+    "avg_video": 0.3857347183603738,
+    "avg_category": 0.3918100647061049,
+    "per_cat": {
+      "PTZ": 0.24430364968880655,
+      "badWeather": 0.4269851523763641,
+      "baseline": 0.5891461644558517,
+      "cameraJitter": 0.4033802916963079,
+      "dynamicBackground": 0.28209840765153177,
+      "intermittentObjectMotion": 0.28545390257433534,
+      "lowFramerate": 0.46352768284629897,
+      "nightVideos": 0.35151717067470645,
+      "shadow": 0.5490680936582244,
+      "thermal": 0.26802207691360397,
+      "turbulence": 0.446408119231123
+    }
+  },
+  {
+    "src": "causal",
+    "tau": 50,
+    "avg_video": 0.3688455276835617,
+    "avg_category": 0.3758653202212256,
+    "per_cat": {
+      "PTZ": 0.24319680017780693,
+      "badWeather": 0.3237085475065554,
+      "baseline": 0.5789242548155143,
+      "cameraJitter": 0.42628627758440985,
+      "dynamicBackground": 0.31495737122519835,
+      "intermittentObjectMotion": 0.24037796306849793,
+      "lowFramerate": 0.42127381014072807,
+      "nightVideos": 0.33373290653119353,
+      "shadow": 0.5165152768836121,
+      "thermal": 0.19957184207783926,
+      "turbulence": 0.5359734724221261
+    }
+  },
+  {
+    "src": "first",
+    "tau": 2,
+    "avg_video": 0.0819111987344103,
+    "avg_category": 0.07901616126465273,
+    "per_cat": {
+      "PTZ": 0.019741005409595225,
+      "badWeather": 0.051100518510937824,
+      "baseline": 0.08679036441319564,
+      "cameraJitter": 0.09359626250970571,
+      "dynamicBackground": 0.027983143806173467,
+      "intermittentObjectMotion": 0.14849534758364447,
+      "lowFramerate": 0.06585474084636356,
+      "nightVideos": 0.04541017154903426,
+      "shadow": 0.1039218278672317,
+      "thermal": 0.2129614556668578,
+      "turbulence": 0.01332293574844038
+    }
+  },
+  {
+    "src": "first",
+    "tau": 5,
+    "avg_video": 0.1205187176307437,
+    "avg_category": 0.1161513483410153,
+    "per_cat": {
+      "PTZ": 0.021946525075155578,
+      "badWeather": 0.08716511318131578,
+      "baseline": 0.13962381797875936,
+      "cameraJitter": 0.11995598355628695,
+      "dynamicBackground": 0.0356206755662652,
+      "intermittentObjectMotion": 0.21133419629682415,
+      "lowFramerate": 0.08212910974456798,
+      "nightVideos": 0.06043373391811582,
+      "shadow": 0.1604083131343066,
+      "thermal": 0.3412388695937185,
+      "turbulence": 0.017808493705852413
+    }
+  },
+  {
+    "src": "first",
+    "tau": 8,
+    "avg_video": 0.16431655910906187,
+    "avg_category": 0.1598996949797504,
+    "per_cat": {
+      "PTZ": 0.024707896856457537,
+      "badWeather": 0.16709451798814742,
+      "baseline": 0.2376953799558265,
+      "cameraJitter": 0.1472495170621197,
+      "dynamicBackground": 0.04411505181040044,
+      "intermittentObjectMotion": 0.2778262625521732,
+      "lowFramerate": 0.11177575527729042,
+      "nightVideos": 0.08603021359100839,
+      "shadow": 0.21960403590984431,
+      "thermal": 0.4180399259444109,
+      "turbulence": 0.0247580878295754
+    }
+  },
+  {
+    "src": "first",
+    "tau": 10,
+    "avg_video": 0.19157893339449986,
+    "avg_category": 0.18758351375887014,
+    "per_cat": {
+      "PTZ": 0.026309188893739403,
+      "badWeather": 0.21523735331110339,
+      "baseline": 0.30706021638016157,
+      "cameraJitter": 0.1659706493475488,
+      "dynamicBackground": 0.04971436736494533,
+      "intermittentObjectMotion": 0.31091543733617444,
+      "lowFramerate": 0.1400200638402475,
+      "nightVideos": 0.10715583762417676,
+      "shadow": 0.2546280414792021,
+      "thermal": 0.45518149690920867,
+      "turbulence": 0.031225998861063677
+    }
+  },
+  {
+    "src": "first",
+    "tau": 15,
+    "avg_video": 0.25265878216003473,
+    "avg_category": 0.24998044786401727,
+    "per_cat": {
+      "PTZ": 0.029508876843275716,
+      "badWeather": 0.2777373310171052,
+      "baseline": 0.47186188103299803,
+      "cameraJitter": 0.2125990353919269,
+      "dynamicBackground": 0.06402280932956171,
+      "intermittentObjectMotion": 0.36936612580908007,
+      "lowFramerate": 0.2379383960984181,
+      "nightVideos": 0.16458937428962778,
+      "shadow": 0.3280761763980347,
+      "thermal": 0.5396667768124705,
+      "turbulence": 0.054418143481691716
+    }
+  },
+  {
+    "src": "first",
+    "tau": 20,
+    "avg_video": 0.3023322630779254,
+    "avg_category": 0.3005481301163026,
+    "per_cat": {
+      "PTZ": 0.03223970060684633,
+      "badWeather": 0.30586311660826787,
+      "baseline": 0.5961470295945845,
+      "cameraJitter": 0.2525532556757499,
+      "dynamicBackground": 0.07959847526356235,
+      "intermittentObjectMotion": 0.41339363087692904,
+      "lowFramerate": 0.33342892793481205,
+      "nightVideos": 0.21360817507445648,
+      "shadow": 0.39105826679273986,
+      "thermal": 0.6041751219973502,
+      "turbulence": 0.08396373085403021
+    }
+  },
+  {
+    "src": "first",
+    "tau": 25,
+    "avg_video": 0.3403207605317084,
+    "avg_category": 0.3388251824259387,
+    "per_cat": {
+      "PTZ": 0.03418144582443412,
+      "badWeather": 0.3104153226007695,
+      "baseline": 0.6949469866975473,
+      "cameraJitter": 0.28567790469766186,
+      "dynamicBackground": 0.09696761658829538,
+      "intermittentObjectMotion": 0.44347764962913344,
+      "lowFramerate": 0.39440005461941424,
+      "nightVideos": 0.24645156447072325,
+      "shadow": 0.44944555416312704,
+      "thermal": 0.6560075117366805,
+      "turbulence": 0.11510539565753938
+    }
+  },
+  {
+    "src": "first",
+    "tau": 30,
+    "avg_video": 0.3688326170374586,
+    "avg_category": 0.3675237224991919,
+    "per_cat": {
+      "PTZ": 0.035792296266710044,
+      "badWeather": 0.29970819716760416,
+      "baseline": 0.7854310689287824,
+      "cameraJitter": 0.31298522643127497,
+      "dynamicBackground": 0.1163369767391164,
+      "intermittentObjectMotion": 0.4601631396585341,
+      "lowFramerate": 0.4297005053863214,
+      "nightVideos": 0.2635232617219898,
+      "shadow": 0.5056929718685016,
+      "thermal": 0.6856522130445758,
+      "turbulence": 0.1477750902777002
+    }
+  },
+  {
+    "src": "first",
+    "tau": 40,
+    "avg_video": 0.3942134307874106,
+    "avg_category": 0.39259602648923264,
+    "per_cat": {
+      "PTZ": 0.03817566189489135,
+      "badWeather": 0.2559613691735439,
+      "baseline": 0.8536571409646149,
+      "cameraJitter": 0.3509792813261763,
+      "dynamicBackground": 0.16210303277847912,
+      "intermittentObjectMotion": 0.4639380382918898,
+      "lowFramerate": 0.4544756709793014,
+      "nightVideos": 0.26675228763074016,
+      "shadow": 0.5835266848038346,
+      "thermal": 0.6664465791966393,
+      "turbulence": 0.2225405443414487
+    }
+  },
+  {
+    "src": "first",
+    "tau": 50,
+    "avg_video": 0.3994258687321179,
+    "avg_category": 0.3972762953435503,
+    "per_cat": {
+      "PTZ": 0.0394135425305,
+      "badWeather": 0.2032103019991223,
+      "baseline": 0.8477816498006195,
+      "cameraJitter": 0.3735487011851463,
+      "dynamicBackground": 0.21820220786656472,
+      "intermittentObjectMotion": 0.4492651471202103,
+      "lowFramerate": 0.4426435863444472,
+      "nightVideos": 0.256392124131037,
+      "shadow": 0.6132286598708736,
+      "thermal": 0.6152377697086602,
+      "turbulence": 0.31111555822187265
+    }
+  }
+]

@@ -1,0 +1,13 @@
+baseline/office
+badWeather/wetSnow
+intermittentObjectMotion/parking
+intermittentObjectMotion/abandonedBox
+lowFramerate/tunnelExit_0_35fps
+PTZ/zoomInZoomOut
+thermal/diningRoom
+cameraJitter/boulevard
+shadow/cubicle
+shadow/peopleInShade
+dynamicBackground/canoe
+nightVideos/fluidHighway
+turbulence/turbulence2

@@ -1,0 +1,13 @@
+baseline/PETS2006
+badWeather/snowFall
+intermittentObjectMotion/streetLight
+intermittentObjectMotion/tramstop
+lowFramerate/turnpike_0_5fps
+PTZ/twoPositionPTZCam
+thermal/park
+cameraJitter/sidewalk
+shadow/bungalows
+shadow/backdoor
+dynamicBackground/fall
+nightVideos/streetCornerAtNight
+turbulence/turbulence3

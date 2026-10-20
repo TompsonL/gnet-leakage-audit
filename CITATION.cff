@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, protocol or audit data, please cite the accompanying manuscript."
+title: "Background-Input Leakage in Video Foreground Segmentation: An Empirical Audit and a Frozen Causal Protocol"
+authors:
+  - family-names: Liu
+    given-names: Jichao
+    orcid: "https://orcid.org/0000-0001-5767-8654"
+    affiliation: "Hainayun IoT Technology Co., Ltd., Qingdao, Shandong, China"
+year: 2026
+version: "1.0.0"
+type: software

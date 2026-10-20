@@ -1,0 +1,70 @@
+{
+  "protocol_version": "cdnet14-official-v1",
+  "bg_source": "causal",
+  "bg_class": "causal",
+  "frame_stride": 1,
+  "threshold": 0.5,
+  "shadow": "background",
+  "roi": "ignore_outside",
+  "aggregation": "per_video->category_mean",
+  "boundary_f1": true,
+  "official_frames": true,
+  "weights": "checkpoints/gnet_d16/last.pt",
+  "root": "datasets/cdnet/CDnet14",
+  "size": 513,
+  "fusion": "cat",
+  "categories": "all",
+  "n_videos": 53,
+  "per_category": {
+    "PTZ": {
+      "F1": 0.0587,
+      "PWC": 20.0464
+    },
+    "badWeather": {
+      "F1": 0.4122,
+      "PWC": 5.6912
+    },
+    "baseline": {
+      "F1": 0.4469,
+      "PWC": 8.0008
+    },
+    "cameraJitter": {
+      "F1": 0.3685,
+      "PWC": 10.1672
+    },
+    "dynamicBackground": {
+      "F1": 0.2322,
+      "PWC": 6.8268
+    },
+    "intermittentObjectMotion": {
+      "F1": 0.2419,
+      "PWC": 12.9944
+    },
+    "lowFramerate": {
+      "F1": 0.1853,
+      "PWC": 20.6948
+    },
+    "nightVideos": {
+      "F1": 0.1,
+      "PWC": 32.9559
+    },
+    "shadow": {
+      "F1": 0.5131,
+      "PWC": 7.6416
+    },
+    "thermal": {
+      "F1": 0.6645,
+      "PWC": 3.0725
+    },
+    "turbulence": {
+      "F1": 0.1546,
+      "PWC": 4.8308
+    }
+  },
+  "summary": {
+    "F1_video_avg": 0.3085,
+    "PWC_video_avg": 12.3698,
+    "F1_category_avg": 0.3071,
+    "PWC_category_avg": 12.0838
+  }
+}

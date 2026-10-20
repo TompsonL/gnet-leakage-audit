@@ -1,0 +1,14 @@
+baseline/highway
+badWeather/blizzard
+intermittentObjectMotion/sofa
+lowFramerate/port_0_17fps
+PTZ/continuousPan
+thermal/corridor
+thermal/lakeSide
+cameraJitter/badminton
+shadow/copyMachine
+dynamicBackground/overpass
+dynamicBackground/fountain02
+nightVideos/bridgeEntry
+nightVideos/busyBoulvard
+turbulence/turbulence0

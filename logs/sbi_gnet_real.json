@@ -1,0 +1,30 @@
+{
+  "protocol_version": "cdnet14-official-v1",
+  "bg_source": "causal",
+  "bg_class": "causal",
+  "frame_stride": 1,
+  "threshold": 0.5,
+  "shadow": "background",
+  "roi": "ignore_outside",
+  "aggregation": "per_video->category_mean",
+  "boundary_f1": false,
+  "official_frames": true,
+  "weights": "checkpoints/gnet_real/last.pt",
+  "root": "datasets/sbi_root",
+  "size": 513,
+  "fusion": "cat",
+  "categories": "sbi",
+  "n_videos": 14,
+  "per_category": {
+    "sbi": {
+      "F1": 0.6647,
+      "PWC": 12.819
+    }
+  },
+  "summary": {
+    "F1_video_avg": 0.6647,
+    "PWC_video_avg": 12.819,
+    "F1_category_avg": 0.6647,
+    "PWC_category_avg": 12.819
+  }
+}

@@ -1,0 +1,14 @@
+Board
+CAVIAR1
+CAVIAR2
+CaVignal
+Candela_m1.10
+Foliage
+HallAndMonitor
+HighwayI
+HighwayII
+HumanBody2
+IBMtest2
+PeopleAndFoliage
+Snellen
+Toscana

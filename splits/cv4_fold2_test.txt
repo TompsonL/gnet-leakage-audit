@@ -1,0 +1,13 @@
+baseline/pedestrians
+badWeather/skating
+intermittentObjectMotion/winterDriveway
+lowFramerate/tramCrossroad_1fps
+PTZ/intermittentPan
+thermal/library
+cameraJitter/traffic
+shadow/busStation
+dynamicBackground/fountain01
+dynamicBackground/boats
+nightVideos/tramStation
+nightVideos/winterStreet
+turbulence/turbulence1

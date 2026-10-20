@@ -1,0 +1,42 @@
+{
+  "protocol_version": "cdnet14-official-v1",
+  "bg_source": "provided",
+  "bg_class": "oracle",
+  "frame_stride": 1,
+  "threshold": 0.5,
+  "shadow": "background",
+  "roi": "ignore_outside",
+  "aggregation": "per_video->category_mean",
+  "boundary_f1": false,
+  "official_frames": true,
+  "weights": "checkpoints/gnet_real/last.pt",
+  "root": "datasets/cdnet/CDnet14",
+  "size": 513,
+  "fusion": "cat",
+  "categories": "badWeather,nightVideos,turbulence,thermal",
+  "n_videos": 19,
+  "per_category": {
+    "badWeather": {
+      "F1": 0.7489,
+      "PWC": 0.6333
+    },
+    "nightVideos": {
+      "F1": 0.4908,
+      "PWC": 3.1105
+    },
+    "thermal": {
+      "F1": 0.5544,
+      "PWC": 4.9716
+    },
+    "turbulence": {
+      "F1": 0.6536,
+      "PWC": 0.9827
+    }
+  },
+  "summary": {
+    "F1_video_avg": 0.5962,
+    "PWC_video_avg": 2.6308,
+    "F1_category_avg": 0.6119,
+    "PWC_category_avg": 2.4245
+  }
+}
