@@ -63,6 +63,13 @@ See `paper/main.pdf` and `logs/` for the full tables.
   small-sample tuning script `scripts/tune_bg.py`.
 - No third-party manuscript or report is redistributed with this package.
 
+## License
+
+Code, scripts, splits and per-video results are released under the MIT
+License (see `LICENSE`). The manuscript text and figures in `paper/` are
+copyright (c) 2026 Jichao Liu and are not covered by the MIT license; they are
+shared for review and reproduction.
+
 ## Contact
 
 Please open an issue or contact the authors for questions about the protocol or
