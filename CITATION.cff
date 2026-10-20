@@ -7,7 +7,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-5767-8654"
     affiliation: "Hainayun IoT Technology Co., Ltd., Qingdao, Shandong, China"
 year: 2026
-version: "1.0.1"
+version: "1.0.2"
 license: MIT
 type: software
 repository-code: "https://github.com/TompsonL/gnet-leakage-audit"
