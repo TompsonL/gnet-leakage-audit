@@ -1,6 +1,7 @@
 # Background-Input Leakage in Video Foreground Segmentation
 
 Repository: https://github.com/TompsonL/gnet-leakage-audit
+Archived DOI: https://doi.org/10.5281/zenodo.23493953
 
 Code and per-video results for the audit paper *"Background-Input Leakage in Video
 Foreground Segmentation: An Empirical Audit and a Frozen Causal Protocol"*.
